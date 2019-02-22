@@ -1,0 +1,62 @@
+
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Fixed Header and Navigation */
+
+header {
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+}
+
+#logo {
+	height: 50px;
+	margin-left: 10px;
+}
+
+nav {
+	float: right;
+}
+
+header li {
+	list-style: none;
+	text-decoration: underline;
+	display: inline-block;
+}
+
+/* Main Section */
+
+main {
+  margin-top: 69px;
+}
+
+/* Mission Section */
+
+#mission {
+	height: 700px;
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url("img-mission-background.jpg");
+	position: relative;
+}
+
+/*
+#mission h2, h4 {
+	position: absolute;
+	top: 50%;
+}
+*/
+
+
+#featured {
+	margin-top: 710px;
+}
