@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Fixed Header and Navigation */
+
+header {
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+  top: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+	height: 50px;
+	margin-left: 10px;
+  /*margin-top: 10px; */
+}
+/*
+nav {
+	float: right;
+  margin-right: 2%;
+}*/
+
+nav li {
+	list-style: none;
+	text-decoration: underline;
+	display: inline-block;
+  padding-right: 10px;
+}
+
+/* Main Section */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main, footer {
+  position: relative;
+  top: 69px;
+}
+
+/* Mission Section */
+
+#mission {
+	height: 700px;
+	margin: 0 auto;
+	background-image: url("img-mission-background.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#mission h2, #mission h4 {
+  margin: 15px 0;
+}
+
+.container {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+
+/* Featured Section */
+
+#featured {
+width: 1000px;
+margin: auto;
+margin-top: 7%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.featured-items {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.feat {
+margin: 2% 15px;
+}
+
+#featured img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 0px;
+}
+
+#featured h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Locations Section */
+
+#locations {
+  height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+	background-image: url("img-locations-background.jpg");
+  background-position: center 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+#locations h2 {
+  margin-bottom: 15px;
+}
+
+.loc-box {
+  display: inline-block;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin: 0 20px;
+}
+
+
+/* Footer */
+
+footer {
+  height: 200px;
+  background-color: black;
+  text-align: center;
+}
+
+footer h2 {
+  margin-top: 1%;
+}
+
+footer h5 {
+  margin-top: 3%;
+}
+
+#copyright {
+  margin-left: 20px;
+  text-align: left;
+}
